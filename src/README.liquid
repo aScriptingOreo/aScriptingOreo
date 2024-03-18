@@ -1,0 +1,40 @@
+---
+layout: default
+title: aScriptingOreo
+---
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Monospace&weight=800&size=26&pause=1000&color=F7782E&background=FFFFFF00&center=true&repeat=false&random=false&width=435&lines=Why+hello+there!;aScriptingOreo" alt="Typing SVG" />
+  </a>
+  
+  <div id="bio" style="margin: 20px 0;">
+    <h1 style="font-size: 2.5em; color: #333;">Hey there, I'm {{ page.title }} 👋</h1>
+    <h2 style="font-size: 2em; color: #666;">Just a Dev from Brazil currently chilling in Lisbon, 🇵🇹 </h2>
+    <p style="font-size: 1.5em; color: #999;">I'm into Full Stack Development, particularly digging TypeScript🟦, Rust⚙️, and Docker🐳. I love building cool stuff and getting my hands dirty with new tech.</p>
+  </div>
+  
+
+<div id="streak" style="margin: 20px 0;">
+  <h2 style="font-size: 2em; color: #333;">🔥 My GitHub Streak</h2>
+  <a href="https://git.io/streak-stats">
+    <img src="https://streak-stats.demolab.com?user=aScriptingOreo&theme=dark&hide_border=true&date_format=%5BY.%5Dn.j&exclude_days=Sun%2CSat&background=10%2C0C0E31%2C700037A1" alt="GitHub Streak" />
+  </a>
+</div>
+
+<div id="projects" style="margin: 20px 0;">
+  <h2 style="font-size: 2em; color: #333;">🔭 Stuff I’m currently working on</h2>
+  <ul style="list-style-type: none;">
+    {% for repo in site.github.public_repositories %}
+      {% if repo.fork == false %}
+        <li style="margin: 10px 0;">
+          <a href="{{ repo.html_url }}" style="font-size: 1.5em; color: #666;">{{ repo.name }}</a>
+          <p style="font-size: 1.2em; color: #999;">{{ repo.description }}</p>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>
+
+<div id="contact">
+  <h2>📫 How to reach me</h2>
+  {% include 'contact' %}
+</div>

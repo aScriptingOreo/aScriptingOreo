@@ -1,6 +1,8 @@
 {
   "scripts": {
-    "start": "nodemon src/app.ts"
+    "dev": "nodemon --watch ./src/*.liquid --watch package.json --watch tsconfig.json render.ts",
+    "build": "tsc",
+    "render": "ts-node render.ts"
   },
   "devDependencies": {
     "@types/node": "^20.11.28",
