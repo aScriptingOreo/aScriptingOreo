@@ -1,8 +1,4 @@
-<div align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Quicksand&weight=800&size=32&pause=1000&color=F7782E&background=FFFFFF00&center=true&repeat=false&random=false&width=435&lines=Why+hello+there!;I'm just...; aScriptingOreo" alt="Typing SVG" />
-  </a>
-  
+<div align="center"> 
   <div id="bio" style="margin: 20px 0;">
     <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.demolab.com?font=Monospace&weight=1200&size=32&pause=1000&color=F7782E&background=FFFFFF00&center=true&repeat=true&random=false&width=435&lines=Why+hello+there!;aScriptingOreo" alt="Typing SVG" />
